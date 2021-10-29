@@ -1,0 +1,115 @@
+body{margin: 0;padding: 0;background:#f2f2f2;}
+ol, ul ,li{list-style-type:none;}
+a{text-decoration:none;} 
+/* a :hover{ background:#CC0000; } */
+.h3tit2{
+    font: bold 28px/32px \5FAE\8F6F\96C5\9ED1;
+    position: relative;
+    padding-left: 40px;
+    font-family: 微软雅黑;
+    font-size: 28px;
+    color: rgb(190, 17, 16);
+
+}
+.elbook{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.h3tit2::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 10px;
+    top: 8px;
+    background: #91000b;
+    border: 4px solid #f1dedf;
+    border-radius: 50%;
+}
+.books ul li{
+    width: 21.5%;
+    float: left;
+    margin: 0 3.3% 2% 0;
+    position: relative;
+}
+
+.books ul li img {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+    border: 2px solid #e3dabb;
+}
+.books ul li img:hover {
+    transform: scale(1.1);
+}
+.elvideo{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.hebfor::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 10px;
+    top: 8px;
+    background: #91000b;
+    border: 4px solid #f1dedf;
+    border-radius: 50%;
+}
+.h3tit3{
+    font: bold 28px/32px \5FAE\8F6F\96C5\9ED1;
+    position: relative;
+    padding-left: 40px;
+    font-family: 微软雅黑;
+    font-size: 28px;
+    color: rgb(190, 17, 16);
+
+}
+.h3tit3::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 10px;
+    top: 10px;
+    background: #91000b;
+    border: 4px solid #f1dedf;
+    border-radius: 50%;
+}
+.videos ul li{
+    width: 21.5%;
+    float: left;
+    margin: 0 3.3% 2% 0;
+}
+.videos ul li img{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 2px solid #e3dabb;
+    transition: all 0.5s;
+}
+.videos ul li img:hover {
+    transform: scale(1.1);
+}
+.videos ul li p {
+    font-size: 15px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #292929;
+    line-height: 28px;
+    display: block;
+    padding: 0px 0 10px;
+}
+.videos ul li span {
+    color: #292929;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    display: block;
+    line-height: 24px;
+}

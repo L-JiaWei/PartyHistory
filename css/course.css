@@ -1,0 +1,107 @@
+body{margin: 0;padding: 0;background:#f2f2f2;}
+ol, ul ,li{list-style-type:none;}
+a{text-decoration:none;} 
+/* a :hover{ background:#CC0000; } */
+.h3tit{
+    font-family: "微软雅黑";
+    font-size: 40px;
+    color: #be1110;
+    padding-left: 32px;
+    line-height: 67px;
+    position: relative;
+    top: -73px;
+    left: 20px;
+}
+.tit1 img{
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.top{
+    width: 563px;
+    float: left;
+}
+.h3tit2{
+    margin-top: -60px;
+    font: bold 28px/32px \5FAE\8F6F\96C5\9ED1;
+    position: relative;
+    padding-left: 29px;
+    color: #212121;
+}
+.h3tit2::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 0;
+    top: 8px;
+    background: #91000b;
+    border: 4px solid #f1dedf;
+    border-radius: 50%;
+}
+.tandb img{
+    margin-right: 12px;
+    float: left;
+    width: 222px;
+    height: 146px;
+}
+.tandb h4{
+    font: bold 18px/24px \5FAE\8F6F\96C5\9ED1;
+    margin-top: 5px;
+}
+.tandb p{
+    color: #b4b4b4;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 15px;
+}
+.list2{
+    padding-top: 20px;
+}
+.list2 li{
+    font-size: 18px;
+    line-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: url(../image/ph_dot2.png) no-repeat left 17px;
+    padding-left: 15px;
+}
+.bottom{
+    width: 540px;
+    float: right;
+}
+
+.shell{
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 3px;
+}
+.shell div{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-style: 30px;
+}
+.shell .image{
+    transform: translateZ(-1px) scale(1.339);
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+.shell .text{
+    height: 50vh;
+    background-color: #fff;
+}
+.shell .text h1{
+    color: #000;
+}
+.shell .heading{
+    z-index: -1;
+    transform: translateY(-55vh) translateZ(0px);
+    color: #ffd500;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    background: #ff610485;
+}
