@@ -1,0 +1,80 @@
+.boxs{/* 主体 */
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    background:#FFFFFF; 
+    padding:25px 25px 0 25px;
+}
+.sboxs{
+    width: 1200px;
+    height: auto;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+}
+.head1{
+    width: 100%;
+}
+.head1_img{
+    display: block;
+    width: 100%;
+}
+.head2{
+    background: #c5181f;
+    width: 100%;
+    height: 160px;
+}
+.hTwo{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url("../image/static/logo_text_bg.png");
+    background-size: cover;
+    background-position: -100px 20px;
+}
+.hTwo ul{
+    overflow: hidden;
+    padding: 0;
+    display: block;
+    float: right;
+    margin: 66px;
+}
+.hTwo ul li{
+    float: left;
+    height: 50px;
+}
+.hTwo ul li a{
+    display:block;
+    line-height:28px;
+    text-align:center; 
+    color: #ffd500;
+    font-size: 22px;
+    padding:0 20px; 
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.hTwo ul li a:hover{
+    position: relative;
+    font-size: 30px;
+    color:#ffcc00;
+}
+.pagewhere{
+    font-size: 30px !important;
+}
+.d1{
+    width: 100%;
+    overflow: hidden;
+    background: #d01a19;
+    margin: 0 auto;
+}
+.dbox{
+    width: 1200px;
+    margin: 0 auto;
+    /* padding: 30px 0; */
+}
+.bq{
+    text-align: center;
+    padding: 12px;
+}
